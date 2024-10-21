@@ -1,0 +1,15 @@
+name: Release on PR merge
+description: ''
+inputs:
+  GITHUB_TOKEN:
+    description: 'GITHUB_TOKEN'
+    required: true
+
+runs:
+  using: 'composite'
+  steps:
+    - name: 'Add "version: patch" label'
+      uses: actions-ecosystem/action-add-labels@v1
+      with:
+        github_token: ${{ inputs.GITHUB_TOKEN }}
+        labels: 'version: patch'
