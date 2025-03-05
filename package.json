@@ -1,7 +1,7 @@
 {
   "name": "gh-action-enforce-version",
   "description": "GITHUB Project",
-  "version": "0.0.0",
+  "version": "1.0.0",
 
   "scripts": {
     "prettier": "prettier . --write",
