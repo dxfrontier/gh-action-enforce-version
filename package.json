@@ -1,6 +1,6 @@
 {
   "name": "gh-action-enforce-version",
-  "description": "GITHUB Project",
+  "description": "gh-action-enforce-version",
   "version": "1.0.0",
 
   "scripts": {
