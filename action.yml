@@ -1,4 +1,4 @@
-name: Release on PR merge
+name: 'Force bump veersion to "version: patch"'
 description: ''
 inputs:
   GITHUB_TOKEN:
@@ -8,7 +8,7 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - name: 'Add "version: patch" label'
+    - name: 'Force to "version: patch" label'
       uses: actions-ecosystem/action-add-labels@v1
       with:
         github_token: ${{ inputs.GITHUB_TOKEN }}
