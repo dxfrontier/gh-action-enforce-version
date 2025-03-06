@@ -1,8 +1,7 @@
 {
   "name": "gh-action-enforce-version",
   "description": "gh-action-enforce-version",
-  "version": "1.0.0",
-
+  "version": "1.0.1",
   "scripts": {
     "prettier": "prettier . --write",
     "prepare": "husky || true",
